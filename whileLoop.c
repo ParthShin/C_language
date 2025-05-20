@@ -1,12 +1,15 @@
 #include<stdio.h>
 
 int main(){
-    int i = 0;
+    int i = 1,a = 17;
 
-    while (i < 10)
+    while (i <= 10)
     {
-        printf("%d \n",i);
-        i ++;
+        printf("2 X ");
+        printf("%d = ",i);
+        printf("%d \n",i*a);
+        i++;
+        
     }
     
     return 0;
